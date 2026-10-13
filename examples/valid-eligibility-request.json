@@ -1,0 +1,1 @@
+{"resourceType":"CoverageEligibilityRequest","status":"active","purpose":["auth-requirements"],"patient":{"reference":"Patient/p1"}}

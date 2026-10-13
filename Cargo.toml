@@ -1,0 +1,19 @@
+[package]
+name = "klarity-exhibit-22-eligibility-fhir-x12-map"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Eligibility FHIR and 271 sketch checks"
+publish = false
+
+[lib]
+name = "eligibility_map"
+path = "src/lib.rs"
+
+[[bin]]
+name = "validate-eligibility"
+path = "src/bin/validate_eligibility.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
